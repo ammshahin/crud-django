@@ -1,1 +1,1 @@
-web: gunicorn django_crud_pr.wsgi
+web : gunicorn crud-pr-shahin.wsgi
