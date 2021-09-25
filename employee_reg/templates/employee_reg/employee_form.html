@@ -14,7 +14,17 @@
             {{form.position|as_crispy_field}}
         </div>
     </div>
-    <button type = "Submit" class="btn btn-success"><i class="fas fa-save"></i> Submit</button>
+    <div class="row pt-3">
+        <div class="col-md-8 d-grid gap-2">
+            <button type = "Submit" class="btn btn-success btn-block btn-lg"><i class="fas fa-save"></i> Submit</button>
+        </div>
+        <div class="col-md-4 d-grid gap-2">
+            <a href="{% url 'employee_list' %}" class="btn btn-secondary btn-block btn-lg">
+                <i class="fas fa-stream">Back To List</i>
+            </a>
+        </div>
+    </div>
+   
 </form>
 
     {% endblock content %}
