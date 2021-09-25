@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure--scuu_u80=(6^y1c43lvpifp_2=*-#=i6+3ya85yrs($v*e5&w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://crud-py-shahin.herokuapp.com"]
 
 
 # Application definition
